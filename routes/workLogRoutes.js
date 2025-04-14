@@ -7,5 +7,5 @@ router.post('/add', workLogController.createLog);
 router.get('/logs/by-date', workLogController.getLogsByDate);
 router.get('/logs/last-month', workLogController.getLogsOfLastMonth);
 router.delete('/logs/by-date', workLogController.deleteLogsByDate);
-router.delete('/logs/last-month', workLogController.deleteLogsOfLastMonth);
+
 module.exports = router;
